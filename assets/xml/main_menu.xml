@@ -1,0 +1,15 @@
+<box width="100%" height="100%">
+    <box horizontalAlign="center" verticalAlign="center">
+        <image resource="assets/images/game_card.png" />
+        <box styleName="bookContent" width="100%" height="100%">
+            <label text="Title" textAlign="center" styleName="menuTitle" horizontalAlign="center"/>
+            <vbox styleName="menuButtonList" horizontalAlign="center" verticalAlign="center">
+                <button styleName="menuButton" id="newGameBtn" text="New Game" textAlign="center" horizontalAlign="center"/>
+                <button styleName="menuButton" id="loadGameBtn" text="Load Game" textAlign="center" horizontalAlign="center"/>
+                <button styleName="menuButton" text="Settings" textAlign="center" horizontalAlign="center"/>
+                <button styleName="menuButton" text="Credits" textAlign="center" horizontalAlign="center"/>
+            </vbox>
+            <label text="a game by me" textAlign="right" styleName="basicMediumFont2 menuFooter" verticalAlign="bottom" horizontalAlign="right"/>
+        </box>
+    </box>
+</box>
